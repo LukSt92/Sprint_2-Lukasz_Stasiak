@@ -9,6 +9,7 @@ function App() {
   function handleClick() {
     setQuizStart(true);
   }
+
   if (quizStart) {
     return <QuestionsPage />;
   } else {
@@ -20,5 +21,4 @@ function App() {
     );
   }
 }
-
 export default App;
